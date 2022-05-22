@@ -16,10 +16,11 @@
     "i": "expo start --ios",
     "w": "expo start --web --clear"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.12.9",
     "@types/react": "18.0.9",
     "@types/react-native": "0.67.7",
+    "expo": "^45.0.4",
     "logkitty": "^0.7.1",
     "react": "18.1.0",
     "react-native": "0.68.2",
@@ -31,8 +32,5 @@
     "range",
     "slider",
     "expo"
-  ],
-  "dependencies": {
-    "expo": "^45.0.4"
-  }
+  ]
 }
