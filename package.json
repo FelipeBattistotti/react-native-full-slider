@@ -1,6 +1,6 @@
 {
   "main": "./src/index",
-  "name": "react-native-range-slider-expo",
+  "name": "react-native-full-slider",
   "description": "Customizable range slider for react native apps and compatible with Expo projects",
   "license": "MIT",
   "homepage": "https://github.com/D10S60948/react-native-range-slider-expo#readme",
@@ -10,22 +10,18 @@
     "src"
   ],
   "scripts": {
-    "tsc-declaration": "tsc --emitDeclarationOnly"
-  },
-  "peerDependencies": {
-    "react-native-gesture-handler": "^1.6.1",
-    "react-native-svg": "^12.1.0"
+    "tsc": "tsc --emitDeclarationOnly"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "@types/react": "~17.0.21",
-    "@types/react-native": "~0.67.6",
+    "@types/react": "18.0.9",
+    "@types/react-native": "0.67.7",
     "logkitty": "^0.7.1",
-    "react": "17.0.2",
+    "react": "18.1.0",
     "react-native": "0.68.2",
-    "react-native-gesture-handler": "~2.2.1",
+    "react-native-gesture-handler": "2.4.2",
     "react-native-svg": "12.3.0",
-    "typescript": "~4.3.5"
+    "typescript": "4.6.4"
   },
   "keywords": [
     "range",

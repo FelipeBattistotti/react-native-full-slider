@@ -196,7 +196,7 @@ export const Slider = gestureHandlerRootHOC(({
                 <Animated.View style={{ width: sliderWidth, height: knobSize / 3, backgroundColor: outOfRangeBarColor, transform: [{ translateX: -sliderWidth / 2 }, { scaleX: inRangeScaleX }, { translateX: sliderWidth / 2 }] }} />
                 <Animated.View style={{ position: 'absolute', left: -knobSize / 4, width: knobSize / 2.5, height: knobSize / 3, borderRadius: knobSize / 3, backgroundColor: outOfRangeBarColor }} />
                 <PanGestureHandler {...{ onGestureEvent, onHandlerStateChange }}>
-                    <Animated.View style={[styles.knob, { height: knobSize, width: knobSize, borderRadius: knobSize, backgroundColor: knobColor, transform: [{ translateX }] }]} />
+                  <Animated.View style={[styles.knob, { height: knobSize, width: knobSize, borderRadius: knobSize, backgroundColor: knobColor, transform: [{ translateX }] }]} />
                 </PanGestureHandler>
             </View>
             {
