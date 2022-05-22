@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "React Native Full Slider",
+    "slug": "react-native-full-slider",
+    "version": "0.0.1",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
