@@ -10,7 +10,11 @@
     "src"
   ],
   "scripts": {
-    "tsc": "tsc --emitDeclarationOnly"
+    "tsc": "tsc --emitDeclarationOnly",
+    "start": "expo start --clear",
+    "a": "expo start --android --clear",
+    "i": "expo start --ios",
+    "w": "expo start --web --clear"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
