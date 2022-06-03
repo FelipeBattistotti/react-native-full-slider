@@ -120,20 +120,3 @@ import RangeSlider, { Slider } from 'react-native-full-slider';
 | showRangeLabels | boolean | no | true |
 | showValueLabels | boolean | no | true |
 | initialValue | number | no | - |
-
-<br/><br/>
-
-## License
-This project is licensed under the MIT License
-
-<br/><br/>
-
-## Todo
-   - [X] Add plain slider (with 1 knob)
-   - [X] Add initial values
-   - [X] Add numeric style size
-   - [X] Add textual values
-   - [ ] Add prefix/suffix to numeric values
-   - [ ] Beautify styling
-   <!-- - [ ] Knob is pressed indication -->
-   <!-- - [ ] Change value press on bar (on the out of range parts) -->
