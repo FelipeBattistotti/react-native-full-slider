@@ -34,6 +34,7 @@
     "typescript": "~4.3.5"
   },
   "keywords": [
+    "react-native",
     "expo",
     "slider",
     "range"
