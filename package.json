@@ -1,10 +1,11 @@
 {
-  "main": "./src/index",
   "name": "react-native-full-slider",
   "description": "Customizable range / single slider for react native apps",
+  "author": "Felipe Battistotti <felipe.battistotti@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/FelipeBattistotti/react-native-full-slider#readme",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "main": "./src/index",
   "types": "./src/index",
   "files": [
     "src"
